@@ -1,0 +1,68 @@
+:root {
+    --primary-bg: hsl(212, 45%, 89%);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: var(--primary-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.25em;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.container {
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.text-container {
+    padding: 0.55em;
+}
+
+@media (min-width: 331px) {
+    .text-container {
+        padding: 0.8em;
+    }
+}
+
+@media (min-width: 341px) {
+    .text-container {
+        padding: 0.9em;
+    }
+}
+
+@media (min-width: 360px) {
+    .container {
+        width: 292px;
+    }
+}
